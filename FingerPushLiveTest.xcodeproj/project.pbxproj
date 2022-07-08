@@ -71,10 +71,6 @@
 		73EB66B7232630AD00172A7B /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		73EB66B9232630AD00172A7B /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		73EB66BB232630AD00172A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73EB66C5232636F100172A7B /* finger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = finger.framework; sourceTree = "<group>"; };
-		73EB66C7232636F100172A7B /* finger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = finger.h; sourceTree = "<group>"; };
-		73EB66C8232636F100172A7B /* libfinger.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfinger.a; sourceTree = "<group>"; };
-		73EB66C9232636F100172A7B /* fingerNotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fingerNotificationService.h; sourceTree = "<group>"; };
 		D2015AA62331BF50008023DC /* TargetingInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetingInfoViewController.swift; sourceTree = "<group>"; };
 		D2015AA82331BF60008023DC /* TagInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagInfoViewController.swift; sourceTree = "<group>"; };
 		D2015AAE2331C44A008023DC /* TargetInfo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TargetInfo.html; sourceTree = "<group>"; };
@@ -135,42 +131,6 @@
 			path = TestNotification;
 			sourceTree = "<group>";
 		};
-		73EB66C2232636F100172A7B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				73EB66C3232636F100172A7B /* SDK */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		73EB66C3232636F100172A7B /* SDK */ = {
-			isa = PBXGroup;
-			children = (
-				73EB66C4232636F100172A7B /* Framework */,
-				73EB66C6232636F100172A7B /* lib */,
-			);
-			name = SDK;
-			path = ../../../../../../Downloads/finger_push_iOS_v3.1.3/SDK;
-			sourceTree = "<group>";
-		};
-		73EB66C4232636F100172A7B /* Framework */ = {
-			isa = PBXGroup;
-			children = (
-				73EB66C5232636F100172A7B /* finger.framework */,
-			);
-			path = Framework;
-			sourceTree = "<group>";
-		};
-		73EB66C6232636F100172A7B /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				73EB66C7232636F100172A7B /* finger.h */,
-				73EB66C8232636F100172A7B /* libfinger.a */,
-				73EB66C9232636F100172A7B /* fingerNotificationService.h */,
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
 		D2015AAA2331C44A008023DC /* web */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,7 +150,6 @@
 				73EB66B8232630AD00172A7B /* TestNotification */,
 				D201D9BD231F78CA00879FFF /* Products */,
 				D23308BE2320B0170097FF01 /* finger.framework */,
-				73EB66C2232636F100172A7B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};

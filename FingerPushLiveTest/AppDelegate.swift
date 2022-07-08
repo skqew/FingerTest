@@ -10,7 +10,7 @@ import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
-
+//test
     var window: UIWindow?
     private let fingerManager = finger.sharedData()
 
