@@ -12,7 +12,6 @@
 		73E9EB0723289662007ABCE8 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E9EB0623289661007ABCE8 /* PopUpViewController.swift */; };
 		73EB66BA232630AD00172A7B /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EB66B9232630AD00172A7B /* NotificationService.swift */; };
 		73EB66BE232630AD00172A7B /* NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 73EB66B7232630AD00172A7B /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		73EB66CA232636FD00172A7B /* finger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23308BE2320B0170097FF01 /* finger.framework */; };
 		D2015AA72331BF50008023DC /* TargetingInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2015AA62331BF50008023DC /* TargetingInfoViewController.swift */; };
 		D2015AA92331BF60008023DC /* TagInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2015AA82331BF60008023DC /* TagInfoViewController.swift */; };
 		D2015AB32331C44B008023DC /* TargetInfo.html in Resources */ = {isa = PBXBuildFile; fileRef = D2015AAE2331C44A008023DC /* TargetInfo.html */; };
@@ -29,7 +28,8 @@
 		D201D9D6231FB24600879FFF /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D201D9D5231FB24600879FFF /* NoticeViewController.swift */; };
 		D203ED1C23330CA40043628B /* TagViewControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D203ED1B23330CA40043628B /* TagViewControllerCell.swift */; };
 		D20CF29623582C0F00FFB1C6 /* MyUINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20CF29523582C0F00FFB1C6 /* MyUINavigationController.swift */; };
-		D23308BF2320B0170097FF01 /* finger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23308BE2320B0170097FF01 /* finger.framework */; };
+		D20FE25D287BC4C4003A076D /* finger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D20FE25C287BC4C4003A076D /* finger.framework */; };
+		D20FE25E287BC4C4003A076D /* finger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D20FE25C287BC4C4003A076D /* finger.framework */; };
 		D23308C52320CB720097FF01 /* TagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23308C42320CB720097FF01 /* TagViewController.swift */; };
 		D23308C72320CB820097FF01 /* TargetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23308C62320CB820097FF01 /* TargetingViewController.swift */; };
 		D23308C92320CBAC0097FF01 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23308C82320CBAC0097FF01 /* InfoViewController.swift */; };
@@ -89,8 +89,8 @@
 		D201D9D5231FB24600879FFF /* NoticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeViewController.swift; sourceTree = "<group>"; };
 		D203ED1B23330CA40043628B /* TagViewControllerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagViewControllerCell.swift; sourceTree = "<group>"; };
 		D20CF29523582C0F00FFB1C6 /* MyUINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUINavigationController.swift; sourceTree = "<group>"; };
+		D20FE25C287BC4C4003A076D /* finger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = finger.framework; path = FingerPushLiveTest/finger.framework; sourceTree = "<group>"; };
 		D233087D2320AC730097FF01 /* FingerPushLiveTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FingerPushLiveTest.entitlements; sourceTree = "<group>"; };
-		D23308BE2320B0170097FF01 /* finger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = finger.framework; sourceTree = "<group>"; };
 		D23308C32320B1940097FF01 /* FingerPushLiveTest_Bridging_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FingerPushLiveTest_Bridging_Header.h; sourceTree = "<group>"; };
 		D23308C42320CB720097FF01 /* TagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagViewController.swift; sourceTree = "<group>"; };
 		D23308C62320CB820097FF01 /* TargetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetingViewController.swift; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73EB66CA232636FD00172A7B /* finger.framework in Frameworks */,
+				D20FE25E287BC4C4003A076D /* finger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,7 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D23308BF2320B0170097FF01 /* finger.framework in Frameworks */,
+				D20FE25D287BC4C4003A076D /* finger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +149,7 @@
 				D201D9BE231F78CA00879FFF /* FingerPushLiveTest */,
 				73EB66B8232630AD00172A7B /* TestNotification */,
 				D201D9BD231F78CA00879FFF /* Products */,
-				D23308BE2320B0170097FF01 /* finger.framework */,
+				D20FE25C287BC4C4003A076D /* finger.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -376,6 +376,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FingerPushLiveTest",
 				);
 				INFOPLIST_FILE = TestNotification/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
@@ -402,6 +403,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FingerPushLiveTest",
 				);
 				INFOPLIST_FILE = TestNotification/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
